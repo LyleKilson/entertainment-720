@@ -14,3 +14,9 @@ dolor sit amet consectetur adipisicing elit. Laudantium aperiam magnam
 aspernatur neque asperiores sit, perspiciatis harum consequatur accusamus et
 officiis dolorem, non obcaecati. Mollitia ad blanditiis accusantium dignissimos
 maxime?
+
+## Contributions🤓
+Danny Pereira,
+Caroline Phillips,
+Jaden Robinson,
+and Kyle Wilson
