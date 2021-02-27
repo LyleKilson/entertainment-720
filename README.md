@@ -1,6 +1,9 @@
 # group-project-1
 
+## Project Requirements
+![plot](/project-requirements.png?raw=true "Preview")
 ## Project Proposal
+
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque rem
 ipsam voluptatum ipsum perferendis quae. Exercitationem ipsam, minima a maxime
 voluptates quam quis accusamus quia dolor autem facilis fuga. Lorem ipsum dolor
