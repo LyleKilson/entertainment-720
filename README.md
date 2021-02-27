@@ -1,4 +1,6 @@
 # Entertainment 720
+720 "because we're willing to go around the world twice for our clients."
+
 ![plot](https://media.giphy.com/media/aB0pip0UqZarm/giphy.gif?raw=true "Preview")
 
 ## Project Proposal
