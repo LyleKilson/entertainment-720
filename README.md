@@ -2,6 +2,7 @@
 
 ## Project Requirements
 ![plot](/project-requirements.png?raw=true "Preview")
+
 ## Project Proposal
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas atque rem
@@ -15,7 +16,7 @@ aspernatur neque asperiores sit, perspiciatis harum consequatur accusamus et
 officiis dolorem, non obcaecati. Mollitia ad blanditiis accusantium dignissimos
 maxime?
 
-## Contributions🤓
+## Contributions 🤓
 Danny Pereira,
 Caroline Phillips,
 Jaden Robinson,
