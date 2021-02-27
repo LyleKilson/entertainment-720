@@ -1,4 +1,5 @@
-# group-project-1
+# Entertainment 720
+![plot](https://media.giphy.com/media/aB0pip0UqZarm/giphy.gif?raw=true "Preview")
 
 ## Project Requirements
 ![plot](/project-requirements.png?raw=true "Preview")
