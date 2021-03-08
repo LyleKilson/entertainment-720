@@ -1,5 +1,9 @@
 body {
-  background-color: #282828;
+  background-color: #191919;
+}
+
+nav {
+  padding-top: 20px;
 }
 /* header/menu*/
 .menu-hover-lines {
@@ -31,7 +35,7 @@ body {
   position: absolute;
   content: "";
   transition: all 0.35s ease;
-  background-color: #1db954;
+  background-color: #FADD78;
   width: 0;
 }
 
@@ -58,4 +62,31 @@ body {
   width: 100%;
 }
 /* header/menu end*/
+
+
+.hero-section {
+  background: url(../images/720-logo.jpg) 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-justify-content: top;
+      -ms-flex-pack: top;
+          justify-content: center;
+}
+
+footer {
+  color: #8a8a8a;
+  width: 100%;
+  margin: 10px;
+  padding-right: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
 
