@@ -1,9 +1,22 @@
+
 body {
   background-color: #191919;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 nav {
   padding-top: 20px;
+}
+
+p {
+  color: #fff;
+  padding: 10px;
+}
+
+.gold-title {
+  color: #fadd78;
+  border-bottom: #fff 1px solid;
+  margin: 0 30% 20px 30%;
 }
 /* header/menu*/
 .menu-hover-lines {
@@ -35,7 +48,7 @@ nav {
   position: absolute;
   content: "";
   transition: all 0.35s ease;
-  background-color: #FADD78;
+  background-color: #fadd78;
   width: 0;
 }
 
@@ -63,21 +76,23 @@ nav {
 }
 /* header/menu end*/
 
-
 .hero-section {
   background: url(../images/720-logo.jpg) 50% no-repeat;
   background-size: cover;
   height: 60vh;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: top;
-      -ms-flex-align: top;
-          align-items: top;
-  -webkit-justify-content: top;
-      -ms-flex-pack: top;
-          justify-content: center;
+  justify-content: center;
+}
+
+.img-container {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+.img {
+  min-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 footer {
@@ -88,5 +103,3 @@ footer {
   position: absolute;
   bottom: 0;
 }
-
-
