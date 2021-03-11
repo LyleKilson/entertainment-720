@@ -5,9 +5,9 @@ body {
 
 .hero-section {
   background: url(../images/720-logo.jpg) 50% no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  height: 60vh;
+  height: 60vmax;
   display: flex;
   justify-content: center;
 }
@@ -99,8 +99,8 @@ p {
 footer {
   color: #8a8a8a;
   width: 100%;
-  margin: 10px;
-  padding-right: 10px;
-  position: absolute;
+  padding: 20px;
+  position: fixed;
+  left: 0;
   bottom: 0;
 }
