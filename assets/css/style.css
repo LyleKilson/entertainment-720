@@ -1,0 +1,9 @@
+#meme {
+    display: flex;
+    width: 70 px;
+    height: 70 px;
+}
+
+#meme-display {
+    display: flexbox;
+}
