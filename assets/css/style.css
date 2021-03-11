@@ -1,9 +1,107 @@
-#meme {
-    display: flex;
-    width: 70 px;
-    height: 70 px;
+body {
+  background-color: #191919;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
-#meme-display {
-    display: flexbox;
+.hero-section {
+  background: url(../images/720-logo.jpg) 50% no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 60vmax;
+  display: flex;
+  justify-content: center;
 }
+
+nav {
+  padding-top: 20px;
+}
+
+p {
+  color: #fff;
+  padding: 10px;
+}
+
+.gold-title {
+  color: #fadd78;
+  border-bottom: #fff 1px solid;
+  margin: 0 30% 20px 30%;
+}
+
+/* header/menu start */
+.menu-hover-lines {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.35s ease;
+}
+
+.menu-hover-lines li a {
+  padding: 0.75rem 0;
+  color: #fff;
+  position: relative;
+  margin-left: 1rem;
+}
+
+.menu-hover-lines li:first-child a {
+  margin-left: 0;
+}
+
+.menu-hover-lines li.active > a {
+  background-color: transparent;
+}
+
+.menu-hover-lines a:before,
+.menu-hover-lines a::after {
+  height: 3px;
+  position: absolute;
+  content: "";
+  transition: all 0.35s ease;
+  background-color: #fadd78;
+  width: 0;
+}
+
+.menu-hover-lines a::before {
+  top: 0;
+  left: 0;
+}
+
+.menu-hover-lines a::after {
+  bottom: 0;
+  right: 0;
+}
+
+.menu-hover-lines a:hover,
+.menu-hover-lines li.active > a {
+  color: #fff;
+  transition: all 0.35s ease;
+}
+
+/* search input start */
+
+.menu-hover-lines a:hover::before,
+.menu-hover-lines .active a::before,
+.menu-hover-lines a:hover::after,
+.menu-hover-lines .active a::after {
+  width: 100%;
+}
+
+.img-container {
+  padding: 15% 0 15% 0;
+}
+
+.img {
+  min-width: 100%;
+  max-width: 100%;
+
+}
+
+footer {
+  color: #8a8a8a;
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
