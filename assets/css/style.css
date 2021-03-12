@@ -109,7 +109,7 @@ p {
   width: auto;
 }
 
-.logo:hover, button:hover {
+button:hover {
   opacity: 0.6;
 }
 

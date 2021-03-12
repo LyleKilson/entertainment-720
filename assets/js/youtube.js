@@ -1,6 +1,6 @@
 var containerEl = document.getElementById('response-container')
-var apiKey = "AIzaSyCCfabIopzBCDJtcxPpKoS9DqGOkkcg0qg"
-var items = ["cats", "dogs", "birds", "horses"]
+var apiKey = "AIzaSyACi__Q5NjQoHp4bb7iccZgTk2FMPlfK1M"
+var items = ["dogs"]
 function random(array){
     var index = Math.floor(Math.random()*array.length)
     var element = array[index]
