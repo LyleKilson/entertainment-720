@@ -4,6 +4,12 @@ var search = $("#sub").val();
 var after = " ";
 
 memeBtn.on("click", function () {
+    var previous = search;
+    console.log($("#sub").val());
+    if(previous != $("#sub").val()){
+        search = $("#sub").val();
+        after = " ";
+    }
     apiURL = "https://www.reddit.com/r/" + search + ".json?after=" + after;
     fetch(apiURL)
         .then(response => response.json())
@@ -26,3 +32,4 @@ memeBtn.on("click", function () {
             }
         });
     });
+
