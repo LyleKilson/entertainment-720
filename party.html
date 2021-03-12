@@ -36,14 +36,34 @@
       <header>
         <h1 class="gold-title text-center">Party Time</h1>
       </header>
-      <section class=" logos-container grid-x align-spaced align-stretch">
+      <section class="logos-container grid-x align-spaced align-stretch">
+        <h2 class="cell grid-x align-center text-center">Memes or Videos?</h2>
         <div class="img-container cell small-6">
-          <img onclick="window.location.href='./meme.html'" class="logo" src="./assets/images/meme.png" alt="Spotify Logo"/>
+          <img
+            class="logo"
+            src="./assets/images/meme.png"
+            alt="Spotify Logo"
+          />
+          <div class="input-group input-group-rounded padding-3">
+            <input id="sub" class="input-group-field" type="search" />
+            <div class="input-group-button">
+              <input id="search" onclick="window.location.href='./meme.html'" type="submit" class="button secondary"/>
+            </div>
+          </div>
         </div>
         <div class="img-container cell small-6">
-          <img onclick="window.location.href='./youtube.html'" class="logo" src="./assets/images/youtube_social_circle_red.png" alt="YouTube Logo"/>
+          <img
+            class="logo"
+            src="./assets/images/youtube_social_circle_red.png"
+            alt="YouTube Logo"
+          />
+          <div class="input-group input-group-rounded padding-3">
+            <input class="input-group-field" type="search" />
+            <div class="input-group-button">
+              <input onclick="window.location.href='./youtube.html'" type="submit" class="button secondary" value="Search" />
+            </div>
+          </div>
         </div>
-        <h2 class="cell grid-x align-center text-center">Memes or Videos?<span class="cell">(click an image above)</span></h2>
       </section>
     </main>
     <footer class="text-right">
@@ -51,7 +71,7 @@
     </footer>
 
     <!--scripts-->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./assets/js/meme.js"></script>
     <script src="./assets/js/youtube.js"></script>
   </body>

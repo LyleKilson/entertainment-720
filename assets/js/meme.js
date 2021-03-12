@@ -1,5 +1,5 @@
 var memeBtn = $("#search");
-var memeDisplay = $("#meme-display");
+var memeDisplay = window.getElementById("meme-display");
 var search = $("#sub").val();
 var after = " ";
 

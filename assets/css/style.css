@@ -85,12 +85,23 @@ p {
 }
 /* header/menu ends */
 
+.input-group-rounded .input-group-field {
+  border-radius: 5000px 0 0 5000px;
+  padding-left: 1rem;
+}
+
+.input-group-rounded .input-group-button .button {
+  border-radius: 0 5000px 5000px 0;
+  font-size: 0.8rem;
+}
+
 .logos-container {
   margin-top: 10%;
 }
 
 .img-container {
-  padding: 10%;
+  padding: 10% 10% 3% 10%;
+
 }
 
 .logo {
