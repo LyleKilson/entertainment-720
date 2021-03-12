@@ -85,15 +85,29 @@ p {
 }
 /* header/menu ends */
 
-
-.img-container {
-  padding: 15% 0 15% 0;
+.logos-container {
+  margin-top: 10%;
 }
 
-.img {
-  min-width: 100%;
-  max-width: 100%;
+.img-container {
+  padding: 10%;
+}
 
+.logo {
+  max-height: 360vh;
+  width: auto;
+}
+
+.logo:hover {
+  opacity: 0.6;
+}
+
+h2 {
+  color: #fff;
+}
+
+h2 span {
+  font-size: medium;
 }
 
 footer {
@@ -105,3 +119,4 @@ footer {
   left: 0;
   bottom: 0;
 }
+
