@@ -101,7 +101,6 @@ p {
 
 .img-container {
   padding: 10% 10% 3% 10%;
-
 }
 
 .logo {
@@ -109,7 +108,7 @@ p {
   width: auto;
 }
 
- button:hover {
+.logo:hover, button:hover {
   opacity: 0.6;
 }
 
@@ -136,4 +135,3 @@ footer {
   left: 0;
   bottom: 0;
 }
-

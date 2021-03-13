@@ -28,21 +28,36 @@
         <li><a href="./about-us.html">about us</a></li>
         <li><a href="./party.html">party</a></li>
         <li><a href="#">merch</a></li>
-        <li><a href="./contact-us.html">contact us</a></li>
       </ul>
     </nav>
     <header>
-        <h1 class="gold-title text-center">Memes</h1>
-      </header>
+      <h1 class="gold-title text-center">Memes</h1>
+    </header>
+    <div class="img-container align-center">
+      <img
+        onclick="window.location.href='./meme.html'"
+        class="logo"
+        src="./assets/images/meme.png"
+        alt="meme Logo"
+      />
+      <div class="input-group input-group-rounded padding-3">
+        <input id="sub" class="input-group-field" type="search" />
+        <div class="input-group-button">
+          <input
+            id="search"
+            type="submit"
+            class="button secondary"
+          />
+        </div>
+      </div>
+    </div>
     <div id="meme-display"></div>
     <footer class="text-right">
-        <small>&copy; Copyright 2021, Entertainment 720 Inc.</small>
-      </footer>
-  
-      <!--scripts-->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="./assets/js/meme.js"></script>
-      
-      
-    </body>
-  </html>
+      <small>&copy; Copyright 2021, Entertainment 720 Inc.</small>
+    </footer>
+
+    <!--scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/meme.js"></script>
+  </body>
+</html>

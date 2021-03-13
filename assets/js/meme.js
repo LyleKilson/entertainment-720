@@ -1,5 +1,6 @@
+
 var memeBtn = $("#search");
-var memeDisplay = document.querySelector("#meme-display");
+var memeDisplay = $("#meme-display");
 var search = $("#sub").val();
 var after = " ";
 
@@ -29,14 +30,13 @@ memeBtn.on("click", function () {
                     memeHolder.append(image);
                     memeDisplay.append(memeHolder);
                 }
-            }
+            } 
         });
     });
 
-    //onclick="window.location.href='./youtube.html'"
-    <div class="input-group input-group-rounded padding-3">
-            <input id="sub" class="input-group-field" type="search" />
-            <div class="input-group-button">
-              <input id="search" onclick="window.location.href='./meme.html'" type="search" class="button secondary"/>
-            </div>
-          </div>
+    // <div class="input-group input-group-rounded padding-3">
+    //         <input class="input-group-field" type="search" />
+    //         <div class="input-group-button">
+    //           <input onclick="window.location.href='./youtube.html'" type="submit" class="button secondary"/>
+    //         </div>
+    //       </div>
