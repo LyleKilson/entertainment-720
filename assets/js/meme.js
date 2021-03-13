@@ -1,16 +1,23 @@
-var memeBtn = $("#search");
-var memeDisplay = document.querySelector("#meme-display");
-var search = $("#sub").val();
-var after = " ";
+$(document).ready(function() {
 
-memeBtn.on("click", function () {
-    var previous = search;
-    console.log($("#sub").val());
-    if(previous != $("#sub").val()){
-        search = $("#sub").val();
-        after = " ";
-    }
-    apiURL = "https://www.reddit.com/r/" + search + ".json?after=" + after;
+
+var memeDisplay = document.querySelector("#meme-display");
+var search = window.location.href;
+var searches = [];
+search.split("?");
+searches.push(search[1]);
+console.log(search);
+console.log(searches);
+localStorage.setItem("searches", search);
+
+
+memeSearch = function (i) {
+    // var previous = search;
+    // console.log($("#sub").val());
+    // if(previous != $("#sub").val()){
+    //     search = $("#sub").val();
+    //after = " ";
+    apiURL = "https://www.reddit.com/r/" + search + ".json?after=";
     fetch(apiURL)
         .then(response => response.json())
         .then(function (data) {
@@ -30,13 +37,17 @@ memeBtn.on("click", function () {
                     memeDisplay.append(memeHolder);
                 }
             }
-        });
-    });
+        })
+    };
 
-    //onclick="window.location.href='./youtube.html'"
-    <div class="input-group input-group-rounded padding-3">
-            <input id="sub" class="input-group-field" type="search" />
-            <div class="input-group-button">
-              <input id="search" onclick="window.location.href='./meme.html'" type="search" class="button secondary"/>
-            </div>
-          </div>
+
+
+//onclick="window.location.href='./youtube.html'"
+ <div class="input-group input-group-rounded padding-3">
+         <input id="sub" class="input-group-field" type="search" />
+         <div class="input-group-button">
+           <input id="search" onclick="window.location.href='./meme.html'" type="search" class="button secondary"/>
+         </div>
+       </div>
+
+});
