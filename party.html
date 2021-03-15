@@ -22,27 +22,46 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Entertainment 720</title>
   </head>
-
   <body>
     <nav>
       <ul class="menu menu-hover-lines align-center">
-        <li><a href="#">home</a></li>
+        <li><a href="./index.html">home</a></li>
         <li><a href="./about-us.html">about us</a></li>
-        <li><a href="./party.html">party</a></li>
+        <li><a href="#">party</a></li>
         <li><a href="https://www.redbubble.com/shop/entertainment+720" target="_blank">merch</a></li>
       </ul>
     </nav>
-    <header class="hero-section"></header>
-    <blockquote class="text-center">
-      720, because we're willing to go around the world twice for our clients.
-      <cite>Tom Haverford</cite>
-    </blockquote>
+    <main>
+      <header>
+        <h1 class="gold-title text-center">Party Time</h1>
+      </header>
+      <section class="logos-container grid-x align-spaced align-stretch">
+        <h2 class="cell grid-x align-center text-center">Memes or Videos?</h2>
+        <div class="img-container cell small-6">
+          <img
+            onclick="window.location.href='./meme.html'"
+            class="logo"
+            src="./assets/images/meme.png"
+            alt="meme Logo"
+          />
+        </div>
+        <div class="img-container cell small-6">
+          <img
+            onclick="window.location.href='./youtube.html'"
+            class="logo"
+            src="./assets/images/youtube_social_circle_red.png"
+            alt="YouTube Logo"
+          />
+        </div>
+      </section>
+    </main>
     <footer class="text-right">
       <small>&copy; Copyright 2021, Entertainment 720 Inc.</small>
     </footer>
 
     <!--scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/meme.js"></script>
+    <script src="./assets/js/youtube.js"></script>
   </body>
 </html>
