@@ -88,15 +88,19 @@ p {
 .input-group-rounded .input-group-field {
   border-radius: 5000px 0 0 5000px;
   padding-left: 1rem;
+  max-width: 400px;
 }
 
 .input-group-rounded .input-group-button .button {
   border-radius: 0 5000px 5000px 0;
   font-size: 0.8rem;
+  background-color: #fadd78;
+  color: #191919;
 }
 
-.logos-container {
-  margin-top: 10%;
+.img {
+  max-width: 500px;
+  max-height: 200vh;
 }
 
 .img-container {
@@ -104,7 +108,7 @@ p {
 }
 
 .logo {
-  max-height: 360vh;
+  max-height: 200vh;
   width: auto;
 }
 

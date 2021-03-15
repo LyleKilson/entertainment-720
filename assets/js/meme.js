@@ -22,7 +22,7 @@ memeBtn.on("click", function () {
             console.log(stuff);
             console.log(apiURL);
             for (var i = 0; i < stuff.data.children.length; i++) {
-                if (stuff.data.children[i].data.post_hint === "image") {
+                if (stuff.data.children[i].data.post_hint === "image" ) {
                     var memeHolder = $("<div>");
                     memeHolder.attr("id", "meme");
                     var image = new Image();
@@ -30,7 +30,7 @@ memeBtn.on("click", function () {
                     memeHolder.append(image);
                     memeDisplay.append(memeHolder);
                 }
-            } 
+            }
         });
     });
 
